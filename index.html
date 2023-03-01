@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/utils.css">
     <title>High Fidelity Backing Tracks | Home</title>
 </head>
 <body>
@@ -77,13 +78,35 @@
                 </tfoot>
             </table>
 
-            <h4>Professional features include:</h4>
-            <ul id="index-pro_features">
-                <li>Separated stems</li>
-                <li>Unprocessed audio</li>
-                <li>Metronome/click track</li>
-                <li>Lead melody guide for vocals</li>
-            </ul>
+            <h4 class="text-center">Professional features include:</h4>
+            <div class="d-flex flex-row justify-content-center">+    
+                <ul id="index-pro_features">
+                    <li>Separated stems</li>
+                    <li>Unprocessed audio</li>
+                    <li>Metronome/click track</li>
+                    <li>Lead melody guide for vocals</li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="text-center">Get yours now!</h2>
+                <div class="d-flex flex-row justify-content-center mb-3">
+                    <input type="radio" id="getstarted-radio-input_full" class="getstarted-radio" name="getstarted-tracktype" value="full" checked="true">
+                    <label for="full" class="pushable-label" id="getstarted-radio-press_full">Full track</label>
+                </div>
+
+                <div class="d-flex flex-row justify-content-center mb-3">
+                    <input type="radio" id="getstarted-radio-input_drum" class="getstarted-radio" name="getstarted-tracktype" value="drum">
+                    <label for="drum" class="pushable-label" id="getstarted-radio-press_drum">Drum track</label>
+                </div>
+
+                <div class="d-flex flex-row justify-content-center mb-3">
+                    <input type="radio" id="getstarted-radio-input_partial" class="getstarted-radio" name="getstarted-tracktype" value="partial">
+                    <label for="partial" class="pushable-label" id="getstarted-radio-press_partial">Partial track</label>
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="full-tracks.html" id="getstarted-ordernow_button" class="my-5 button blue text-center">Get started</a>
+                </div>
+            </div>
         </div>
     </section>
 

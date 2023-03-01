@@ -113,3 +113,6 @@ ul#real_perf-available_ins li::before {
 .red-span {
     color: #c11;
 }
+label.pushable-label {
+    cursor: pointer;
+}
